@@ -1,0 +1,85 @@
+body { 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.dashboard-title {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.dashboard-subtitle {
+    text-align: left;
+    margin: 20px 0;
+}
+
+.request-table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.request-table th, .request-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.request-table th {
+    background-color: #808080;
+    color: white; 
+}
+
+.update-title {
+    text-align: center; 
+    margin-top: 30px;  
+    font-size: 24px;   
+    color: #333;      
+}
+
+
+.update-form {
+    width: 50%;
+    margin: 20px auto;
+}
+
+.form-input, .form-select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    margin-left: 0;
+}
+
+.submit-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.submit-button:hover {
+    background-color: #45a049;
+}
+
+.back-button {
+    background-color: #f0ad4e; 
+    color: white; 
+    border: none; 
+    padding: 10px 15px;
+    border-radius: 5px; 
+    cursor: pointer; 
+}
+
+/* Centering the button */
+.button-container {
+    display: flex; 
+    justify-content: center; 
+    margin-top: 20px; 
+}
+
